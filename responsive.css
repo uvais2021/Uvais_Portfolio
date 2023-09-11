@@ -100,3 +100,18 @@
 
     }
 }
+@media (max-width: 576px) {
+    .banner_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 1000px;
+        background:linear-gradient(90deg,black,transparent 150%),url('./images/home-bg\ sm.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 200px 0 0px 0;
+    
+    }
+
+}
