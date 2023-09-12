@@ -225,7 +225,7 @@ button {
     width: 100%;
     height: auto;
     min-height: 1000px;
-    background:linear-gradient(90deg,black,transparent 75%),url('./images/home-bg.png');
+    background:linear-gradient(90deg,black,transparent 70%),url('./images/home-BG.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
