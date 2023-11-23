@@ -15,6 +15,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
@@ -28,8 +29,14 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- <span class=""></span> -->
-                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                    <!-- <i class="fas fa-stream navbar-toggler-icon"></i> -->
+                    <div class="hamburger" id="ok">
+                        <span class="bar1" id="b1"></span>
+                        <span class="bar2" id="b2"></span>
+                        <span class="bar3" id="b3"></span>
+                    </div>
                 </button>
+
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav menu-navbar-nav">
                         <li class="nav-item">
@@ -55,8 +62,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center text-md-start">
-                        <h6>WELCOME TO MY WORLD</h6>
-                        <h1>I’m Uvais<br><span>Web Developer.</span><br></h1><p>23 year old Creative Web Develeoper from Trichy</p>
+                        <h6>WELCOME TO MY PORTFOLIO</h6>
+                        <!-- <h1>I’m Uvais<br></h1>
+                            <ul class="dynamic-text">
+                              <li><span>Web Developer.</span></li>
+                              <li> <span>UI/UX Designer</span></li>
+                            </ul>
+                         -->
+                        <div class="wrapper">
+                            <div class="static-txt">I'm Uvais</div>
+                            <ul class="dynamic-txts">
+                                <li><span>Web Developer</span></li>
+                                <li><span>UI / UX Designer</span></li>
+                                <li><span>Web Developer</span></li>
+                                <li><span>UI / UX Designer</span></li>
+                            </ul>
+                            <p>23 year old Creative Web Develeoper from Trichy</p>
+                        </div>
                         <div class="mt-4">
                             <a class="main-btn" href="./images/UVAIS_RESUME 2023.docx">Download Resume</a>
                         </div>
@@ -72,13 +94,16 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="aboutlogo col-lg-5 mb-4 mb-lg-0 sm-12">
-                        <img decoding="async" src="images/photo_6338851505733483899_y.jpg" class="img-fluid rounded-3" alt="About Us">
+                        <img decoding="async" src="images/photo_6338851505733483899_y.jpg" class="img-fluid rounded-3"
+                            alt="About Us">
                     </div>
                     <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
                         <div class="my-3 my-lg-0">
                             <span class="subtitle">My About Details</span>
                             <h2>About Me</h2>
-                            <p>"An imaginative web developer with a penchant for turning lines of code into captivating digital symphonies, weaving together user experiences that leave a lasting impression on the virtual canvas of the world wide web."</p>
+                            <p>"An imaginative web developer with a penchant for turning lines of code into captivating
+                                digital symphonies, weaving together user experiences that leave a lasting impression on
+                                the virtual canvas of the world wide web."</p>
                         </div>
                         <div class="pt-4">
                             <ul class="nav nav-pills mb-3 justify-content-center justify-content-lg-between"
@@ -228,8 +253,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card p-0">
-                            <span
-                                style="background-image: url('./images/portfolio/Garden.png')"></span>
+                            <span style="background-image: url('./images/portfolio/Garden.png')"></span>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
@@ -239,8 +263,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card p-0">
-                            <span
-                                style="background-image: url('./images/portfolio/roboto.png')"></span>
+                            <span style="background-image: url('./images/portfolio/roboto.png')"></span>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
@@ -270,13 +293,14 @@
                             <div class="col-sm-9 mb-3 mb-lg-2 mt-3">
                                 <a href="mailto:example@gmail.com">uvais2021@gmail.com</a>
                             </div>
-                        </div> 
+                        </div>
                         <form>
                             <div class="mb-4">
                                 <input type="text" class="form-control" placeholder="Your Name..." autocomplete="off">
                             </div>
                             <div class="mb-4">
-                                <input type="number" class="form-control" placeholder="Your Phone..." autocomplete="off">
+                                <input type="number" class="form-control" placeholder="Your Phone..."
+                                    autocomplete="off">
                             </div>
                             <div class="mb-4">
                                 <input type="email" class="form-control" placeholder="Your Email..." autocomplete="off">
@@ -295,46 +319,50 @@
             </div>
         </section>
     </main>
-<footer>
-    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-md-6 text-center text-md-start">
-                    <div class="footer-logo mb-3 mb-md-0">
-                        <img decoding="async" src="images/logo.png">
+    <footer>
+        <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-6 text-center text-md-start">
+                        <div class="footer-logo mb-3 mb-md-0">
+                            <img decoding="async" src="images/logo.png">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0">
-                        <li>
-                            <a href="https://instagram.com/u_vai_ss?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/bee.uvais"><i class="fab fa-facebook-f"></i> </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/uvais2021"><i class="fab fa-github"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/uvais-a-410593215"><i class="fab fa-linkedin-in"></i> </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
-                        <p class="mb-0">Copyright © 2023 <a href="#">Uvais F_END DEVELOPER</a>. All Rights Reserved.</p>
+                    <div class="col-lg-4 col-md-6">
+                        <ul
+                            class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0">
+                            <li>
+                                <a href="https://instagram.com/u_vai_ss?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/bee.uvais"><i class="fab fa-facebook-f"></i> </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/uvais2021"><i class="fab fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/uvais-a-410593215"><i
+                                        class="fab fa-linkedin-in"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                            <p class="mb-0">Copyright © 2023 <a href="#">Uvais F_END DEVELOPER</a>. All Rights Reserved.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</footer>
+        </section>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./main.js"></script>
 
 </html>
