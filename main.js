@@ -1,3 +1,4 @@
+
 let nav =document.querySelector(".navbar");
 window.onscroll = function(){
     if(document.documentElement.scrollTop>20){
@@ -13,4 +14,9 @@ navBar.forEach(function (a){
     a.addEventListener("click", function(){
         navCollapse.classList.remove("show");
     })
+})
+
+let hamburger=document.getElementById("ok");
+hamburger.addEventListener("click",()=>{
+    hamburger.classList.toggle("uvais");
 })
