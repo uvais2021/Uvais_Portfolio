@@ -30,11 +30,11 @@ navBar.forEach(function (a) {
     })
 })
 
-// let hamburger = document.getElementById("ok");
-// hamburger.addEventListener("click", () => {
-//     // hamburger.textContent='X'
-//     hamburger.classList.toggle("uvais");
-// })
+let hamburger = document.getElementById("ok");
+hamburger.addEventListener("click", () => {
+    // hamburger.textContent='X'
+    hamburger.classList.toggle("uvais");
+})
 
 
 
